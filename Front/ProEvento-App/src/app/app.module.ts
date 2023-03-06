@@ -23,6 +23,8 @@ import { PerfilComponent } from './components/perfil/perfil.component';
 
 import { EventoService } from './service/evento.service';
 import { DateTimeFormatPipe } from './helpers/DateTimeFormat.pipe';
+import { EventoDetalheComponent } from './components/eventos/evento-detalhe/evento-detalhe.component';
+import { EventoListaComponent } from './components/eventos/evento-lista/evento-lista.component';
 
 
 @NgModule({
@@ -35,7 +37,9 @@ import { DateTimeFormatPipe } from './helpers/DateTimeFormat.pipe';
       TituloComponent,
       ContatosComponent,
       DashboardComponent,
-      PerfilComponent
+      PerfilComponent,
+      EventoDetalheComponent,
+      EventoListaComponent
    ],
   imports: [
     BrowserModule,
